@@ -1,7 +1,6 @@
 // This file acts as a gatekeeper for all routes
 
 const router = require('express').Router();
-const path = require('path');
 const apiRoutes = require("./api");
 const pageRoutes = require("./pages");
 
