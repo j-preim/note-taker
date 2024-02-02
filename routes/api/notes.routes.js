@@ -5,7 +5,7 @@ const seeNotes = require("../../db/db.json");
 const fs = require("fs");
 
 router.get("/", (req, res) => {
-  res.json({seeNotes});
+  res.json(seeNotes);
 });
 
 module.exports = router;
